@@ -24,3 +24,37 @@ for (c = 50; c >= 20; c--) {
     }
 }
 
+
+//loop5
+// prints all elements in the array
+let arr1 = [1, 5, 'LC101', 'blue', 42]
+
+for (i in arr1) {
+    console.log(arr1[i]);
+}
+
+//loop6
+// prints all characters in the string in reverse
+let str1 = "LauchCode"
+
+for (let i = str1.length - 1; i >= 0; i--) {
+    console.log(str1[i]);
+}
+
+
+//loop7
+// prints all even and odd numbers in a given array
+const numbers = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+const evens = [];
+const odds = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 === 0) {
+    evens.push(numbers[i]);
+  } else {
+    odds.push(numbers[i]);
+  }
+}
+
+console.log("Even numbers:", evens);
+console.log("Odd numbers:", odds);
